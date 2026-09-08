@@ -10,6 +10,17 @@ for the full rationale and what triggers a major bump.
 
 ## [Unreleased]
 
+## [v2.15.1], 2026-09-08
+
+### Fixed
+
+- Grok sessions now scroll cleanly on desktop and mobile. Grok used to open
+  in its fullscreen mode, which has no scrollback and ignores the mouse
+  wheel, so scrolling was erratic on desktop and impossible on phones and
+  tablets. Grok now opens in its scrollback native mode, so the wheel and
+  finger swipe scroll the conversation the same way they do for Claude.
+  (#546)
+
 ## [v2.15.0], 2026-09-05
 
 ### Added
